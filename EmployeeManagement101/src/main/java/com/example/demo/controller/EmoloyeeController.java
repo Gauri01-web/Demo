@@ -17,7 +17,7 @@ public class EmoloyeeController {
 	@Autowired
 	
 	EmployeeService es;
-	@PostMapping("saveEmployee")
+	@PostMapping("saveeeEmployeeee")
 	public String saveEmployeeInDb(@RequestBody Employeee e) {
 		
 		es.saveEmployeeInDb(e);
