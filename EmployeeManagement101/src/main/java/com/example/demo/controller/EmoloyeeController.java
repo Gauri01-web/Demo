@@ -24,7 +24,7 @@ public class EmoloyeeController {
 		
 		return "Employee is Added";
 	}
-	@DeleteMapping("deleteEmployee/{eID}")
+	@DeleteMapping("deleteeeEmployee/{eID}")
 	public String DeleteEmployee(@PathVariable int eID) {
 		
 		es.deleteEmployee(eID);
